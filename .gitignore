@@ -1,0 +1,17 @@
+# Ignore the Engine and Linux binaries
+Engine/
+linux64/
+
+# No need for manifests
+Manifest_DebugFiles_Linux.txt
+Manifest_NonUFSFiles_Linux.txt
+Manifest_USFFiles_Linux.txt
+
+# Steamclient.so
+steamclient.so
+
+# Ignore everything that isnt save data
+Pal/Binaries
+Pal/Content
+Pal/Intermediate
+
