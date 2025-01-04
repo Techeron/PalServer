@@ -2,7 +2,7 @@
 const { exec } = require('child_process');
 
 const ResetInterval = 6 * 60 * 60 * 1000 // Every 6 hours
-const BackupInterval = 1 * 1 * 10 * 1000 // Every Hour
+const BackupInterval = 1 * 60 * 60 * 1000 // Every Hour
 
 let Server;
 
