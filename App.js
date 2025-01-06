@@ -1,7 +1,7 @@
 /* Palworld Server Management Utility */
 const { exec } = require('child_process');
 
-const ResetInterval = 6 * 60 * 60 * 1000 // Every 6 hours
+const ResetInterval = 128 * 60 * 60 * 1000 // Every 6 hours
 const BackupInterval = 1 * 60 * 60 * 1000 // Every Hour
 
 let Server;
